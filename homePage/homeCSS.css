@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+
+body {
+    min-height: 50vh;
+    max-height: 100vh;
+    /* background: url('/images/top-view-traveling-items-arrangement.jpg'); */
+    background: #52D3D8;
+    background-size: cover;
+    background-position: center;
+}
+
+.wel_pg {
+    margin-top: 21%;
+    margin-left: 40%;
+    text-align: center;
+    color: #200E3A;
+}
+
+/* .logsign {
+    padding: 10px;
+    border-style: solid;
+    border-radius: 15px;
+} */
+
+.tagline {
+    background-color: white;
+    background-color: #3887BE;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.titletext {
+    font-size: 50px;
+}
+
+img {
+    position: absolute;
+    margin-top: 650px;
+    width: 650px;
+}
