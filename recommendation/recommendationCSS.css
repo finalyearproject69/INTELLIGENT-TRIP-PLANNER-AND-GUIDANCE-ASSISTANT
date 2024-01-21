@@ -12,35 +12,39 @@
   }
 
 div.container {
-    width: 100%;
+    width: auto;
     height: 200px;
     border-radius: 15px;
     background: url('/images/bascilica.webp');
     background-position: center;
+    margin: 15px;
 }
 
 div.container2 {
-    width: 100%;
+    width: auto;
     height: 200px;
     border-radius: 15px;
     background: url('/images/beautiful_cloudy_blue_sky_above_blue_and_brown_body_of_water_during_daytime_hd_beach.jpg');
     background-position: center;
+    margin: 15px;
 }
 
 div.container3 {
-    width: 100%;
+    width: auto;
     height: 200px;
     border-radius: 15px;
     background: url('/images/pexels-magda-ehlers-1631065.jpg');
     background-position: center;
+    margin: 15px;
 }
 
 div.container4 {
-    width: 100%;
+    width: auto;
     height: 200px;
     border-radius: 15px;
     background: url('/images/1920x1080-hd-beach-khfbqt2io95uf0zy.jpg');
     background-position: center;
+    margin: 15px;
 }
 
 .pack-name {

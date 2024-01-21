@@ -33,6 +33,7 @@ div.gallery {
   border: 1px solid var(--border-color);
   background-color: var(--white-color);
   border-radius: 15px;
+  margin-bottom: 15px;
 }
   
 div.gallery:hover {
@@ -50,6 +51,33 @@ div.gallery img {
 }
   
 div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.gallery {
+  width: 100%; 
+  max-width: auto; 
+  height: 400px;
+  margin: auto; 
+  overflow: hidden; 
+  transition: .3s ease;
+}
+
+.gallery:hover {
+  width: 100%;
+  max-width: auto; 
+  height: auto;
+  margin: auto; 
+  overflow: hidden; 
+} 
+
+.gallery img {
+  width: 100%; 
+  height: auto; 
+}
+
+.desc {
   padding: 15px;
   text-align: center;
 }
