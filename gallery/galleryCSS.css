@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+:root {
+  --first-color: #DCF2F1;
+  --second-color: #7FC7D9;
+  --thrid-color: #365486;
+  --fourth-color: #0F1035;
+  --white-color: #fff;
+  --border-color: #ccc;
+  --border-hover-color: #ccc;
+  --box-shadow-color: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -11,24 +23,24 @@ body {
   min-height: 50vh;
   max-height: 100vh;
   /* background: url('/images/top-view-traveling-items-arrangement.jpg'); */
-  background: #52D3D8;
+  background: var(--first-color);
   background-size: cover;
   background-position: center;
 }
 
 div.gallery {
   transition: .3s;
-  border: 1px solid #ccc;
-  background-color: white;
+  border: 1px solid var(--border-color);
+  background-color: var(--white-color);
   border-radius: 15px;
 }
   
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid var(--border-hover-color);
   transform: scale(1.1);
   align-items: center;
   position: relative;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: var(--box-shadow-color);
 }
   
 div.gallery img {
