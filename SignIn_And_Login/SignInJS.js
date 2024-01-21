@@ -16,11 +16,17 @@ function validateSignUp() {
     var firstName = document.getElementById('firstName').value;
     var lastName = document.getElementById('lastName').value;
     var email = document.getElementById('email').value;
+    var phone = document.getElementById('phone').value;
     var password = document.getElementById('password').value;
     var confirmPassword = document.getElementById('confirmPassword').value;
 
-    if (firstName.trim() === '' || lastName.trim() === '' || email.trim() === '' || password.trim() === '' || confirmPassword.trim() === '') {
+    if (firstName.trim() === '' || lastName.trim() === '' || email.trim() === '' || phone.trim() === '' || password.trim() === '' || confirmPassword.trim() === '') {
         alert('Please fill in all fields');
+        return false;
+    }
+
+    if (!isPhoneNumberValid(phone)) {
+        alert('Phone must be a 10-digit integer');
         return false;
     }
 
@@ -31,6 +37,11 @@ function validateSignUp() {
 
     return true;
 }
+
+function isPhoneNumberValid(phone) {
+    return /^\d{10}$/.test(phone);
+}
+
 
 function validateSignIn() {
     var signInEmail = document.getElementById('signInEmail').value;
