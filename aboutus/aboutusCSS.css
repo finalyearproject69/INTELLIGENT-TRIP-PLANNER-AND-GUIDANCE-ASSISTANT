@@ -18,7 +18,14 @@
     font-family: "Poppins", "sans-serif";
 }
 
+body {
+    background: var(--first-color);
+    background-size: cover;
+    background-position: center;
+}
+
 h1, h2, p {
+    color: var(--fourth-color);
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
